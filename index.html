@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Digital Nusantara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Café Digital Nusantara">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Café Digital Nusantara</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#home">Home</a>
+        <a href="#stats">Stats</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary" href="reservation.html">Reservation</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg" style="background-image:url('images/background.jpg');"></div>
+    <div class="container hero-content">
+      <h1>Where Coffee Meets Digital</h1>
+      <p>
+        Startup café kekinian yang menggabungkan ruang café dengan coworking digital.
+        Nyaman untuk nongkrong, kerja, dan networking dengan kualitas kopi premium.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="reservation.html">Reservasi Meja</a>
+        <a class="btn btn-ghost" href="#about">Lihat Profil</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK STATS -->
+  <section id="stats" class="section">
+    <div class="container">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Cabang</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">5,000+</div>
+          <div class="stat-label">Pelanggan</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">4.8</div>
+          <div class="stat-label">Rating ⭐</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-soft">
+    <div class="container">
+      <div class="section-head">
+        <h2>About Us</h2>
+        <p>Cerita singkat, visi misi, tim, dan nilai yang kami pegang.</p>
+      </div>
+
+      <!-- Our Story -->
+      <div class="story card">
+        <div class="story-text">
+          <h3>Our Story</h3>
+          <p>
+            Café Digital Nusantara hadir untuk Gen Z dan milenial yang butuh tempat estetik
+            sekaligus produktif. Dalam 6 bulan, kami berkembang menjadi 2 cabang di
+            Jakarta dan Bandung, dengan konsep café + coworking digital.
+          </p>
+
+          <div class="story-points">
+            <div class="mini">
+              <div class="mini-title">Visi</div>
+              <div class="mini-text">Menjadi jaringan café digital nomor 1 di Indonesia.</div>
+            </div>
+            <div class="mini">
+              <div class="mini-title">Misi</div>
+              <ul class="mini-list">
+                <li>Menyediakan tempat nyaman untuk kerja & nongkrong.</li>
+                <li>Menghadirkan kopi premium dengan rasa konsisten.</li>
+                <li>Menjadi ruang komunitas untuk networking & kolaborasi.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-image">
+          <img src="images/story.jpg" alt="Our Story">
+        </div>
+      </div>
+
+      <!-- Team Photos (3 foto) -->
+      <div class="card mt">
+        <h3>Team Photos</h3>
+        <div class="team">
+          <figure class="team-item">
+            <img src="images/story-1.jpg" alt="Foto tim 1" />
+            <figcaption>Barista Lead</figcaption>
+          </figure>
+          <figure class="team-item">
+            <img src="images/story-2.jpg" alt="Foto tim 2" />
+            <figcaption>Store Manager</figcaption>
+          </figure>
+          <figure class="team-item">
+            <img src="images/story-3.jpg" alt="Foto tim 3" />
+            <figcaption>Community Host</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Our Values -->
+      <div class="card mt">
+        <h3>Our Values</h3>
+        <ul class="list">
+          <li><b>Quality First</b> — kopi premium, proses higienis, rasa konsisten.</li>
+          <li><b>Digital Friendly</b> — WiFi cepat, banyak colokan, area kerja nyaman.</li>
+          <li><b>Community</b> — ruang bertemu, event komunitas, dan networking.</li>
+          <li><b>Cozy & Aesthetic</b> — interior estetik untuk kerja maupun santai.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our Menu</h2>
+        <p>Signature items (3) dan tabel menu lengkap dengan harga.</p>
+      </div>
+
+      <!-- Signature Items (3 item spesial) -->
+      <div class="subhead">Signature Items</div>
+      <div class="cards-3">
+        <article class="card product">
+          <img src="images/menu-kopi.jpg" alt="Signature item 1" />
+          <div class="product-body">
+            <h3>Paper Brew</h3>
+            <p>Kopi manual brew dengan aroma floral.</p>
+            <div class="price">Rp 28.000</div>
+          </div>
+        </article>
+
+        <article class="card product">
+          <img src="images/menu-burger.jpg" alt="Signature item 2" />
+          <div class="product-body">
+            <h3>Tech Burger</h3>
+            <p>Burger juicy untuk teman kerja & meeting.</p>
+            <div class="price">Rp 42.000</div>
+          </div>
+        </article>
+
+        <article class="card product">
+          <img src="images/menu-shake.jpg" alt="Signature item 3" />
+          <div class="product-body">
+            <h3>Cloud Shake</h3>
+            <p>Minuman creamy, manis ringan, dingin segar.</p>
+            <div class="price">Rp 35.000</div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Menu Table -->
+      <div class="subhead mt">Full Menu</div>
+      <div class="card table-wrap">
+        <table class="menu-table">
+          <thead>
+            <tr>
+              <th>Kategori</th>
+              <th>Nama Item</th>
+              <th>Harga</th>
+              <th>Deskripsi</th>
+              <th>Ketersediaan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Minuman</td>
+              <td>Espresso Nusantara</td>
+              <td>Rp 25.000</td>
+              <td>Espresso kuat, aroma khas.</td>
+              <td>Setiap hari</td>
+            </tr>
+            <tr>
+              <td>Minuman</td>
+              <td>Latte Digital</td>
+              <td>Rp 32.000</td>
+              <td>Latte creamy, cocok untuk kerja lama.</td>
+              <td>Setiap hari</td>
+            </tr>
+            <tr>
+              <td>Minuman</td>
+              <td>Cold Brew</td>
+              <td>Rp 35.000</td>
+              <td>Segar, ringan, tetap berkarakter.</td>
+              <td>Setiap hari</td>
+            </tr>
+            <tr>
+              <td>Makanan</td>
+              <td>Chicken Sandwich</td>
+              <td>Rp 38.000</td>
+              <td>Renyah, gurih, bikin kenyang.</td>
+              <td>Weekday</td>
+            </tr>
+            <tr>
+              <td>Makanan</td>
+              <td>Tech Burger</td>
+              <td>Rp 42.000</td>
+              <td>Beef patty + saus spesial.</td>
+              <td>Weekend</td>
+            </tr>
+            <tr>
+              <td>Dessert</td>
+              <td>Choco Cookies</td>
+              <td>Rp 18.000</td>
+              <td>Manis pas, cocok dengan kopi.</td>
+              <td>Setiap hari</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="muted small">*Bisa Pak Andri ubah nama & harga sesuai kebutuhan.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACILITIES -->
+  <section id="facilities" class="section section-soft">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our Facilities</h2>
+        <p>List fasilitas unggulan + photo gallery (6–8 foto).</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Facilities List -->
+        <div class="card">
+          <h3>Facilities Unggulan</h3>
+          <ul class="fac-list">
+            <li><span class="ico">📶</span> High-speed WiFi (100Mbps)</li>
+            <li><span class="ico">🧑‍💼</span> Meeting Room (kapasitas 10 orang)</li>
+            <li><span class="ico">🔌</span> Charging Station di setiap meja</li>
+            <li><span class="ico">🖨️</span> Printing & Scanning Service</li>
+            <li><span class="ico">🕒</span> 24/7 Café Service</li>
+            <li><span class="ico">🌿</span> Ruang kerja indoor & outdoor</li>
+          </ul>
+        </div>
+
+        <!-- Photo Gallery (6 foto) -->
+        <div class="card">
+          <h3>Photo Gallery</h3>
+          <div class="gallery">
+            <img src="images/gal-1.jpg" alt="Gallery 1" />
+            <img src="images/gal-2.jpg" alt="Gallery 2" />
+            <img src="images/gal-3.jpg" alt="Gallery 3" />
+            <img src="images/gal-4.jpg" alt="Gallery 4" />
+            <img src="images/gal-5.jpg" alt="Gallery 5" />
+            <img src="images/gal-6.jpg" alt="Gallery 6" />
+          </div>
+          <div class="muted small">*Kalau punya 8 foto, tinggal tambah 2 tag &lt;img&gt; lagi.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & LOCATIONS -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Contact & Locations</h2>
+        <p>Detail 2 cabang + map placeholder + contact info.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Branch Locations</h3>
+
+          <div class="branch">
+            <div class="branch-title">📍 Jakarta — Sudirman</div>
+            <div class="branch-text">Jl. Sudirman No. 10, Jakarta Pusat</div>
+            <div class="branch-text">Jam: 08.00 – 23.00</div>
+          </div>
+
+          <div class="branch">
+            <div class="branch-title">📍 Bandung — Dago</div>
+            <div class="branch-text">Jl. Dago No. 25, Bandung</div>
+            <div class="branch-text">Jam: 09.00 – 23.00</div>
+          </div>
+
+          <hr class="sep" />
+
+          <h3>Contact Info</h3>
+          <p class="contact-line"><span class="ico">✉️</span> info@cafedigital.com</p>
+          <p class="contact-line"><span class="ico">📞</span> 021-1122-3344</p>
+          <p class="contact-line"><span class="ico">📱</span> 08xx-xxxx-xxxx</p>
+        </div>
+
+        <div class="card">
+          <h3>Map Placeholder</h3>
+          <div class="map">
+            <div class="map-inner">
+              <div class="map-title">MAP AREA</div>
+              <div class="map-text">Placeholder peta (tanpa embed).</div>
+            </div>
+          </div>
+
+          <div class="mt">
+            <a class="btn btn-primary" href="reservation.html">Buat Reservasi</a>
+            <a class="btn btn-ghost" href="#home">Kembali ke Atas</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div>
+        <div class="footer-title">Get in Touch</div>
+        <div class="footer-line">✉️ info@cafedigital.com</div>
+        <div class="footer-line">📞 021-1122-3344</div>
+      </div>
+
+      <div class="footer-social" aria-label="Sosial media">
+        <a href="#" class="social" title="Instagram" aria-label="Instagram">IG</a>
+        <a href="#" class="social" title="Twitter" aria-label="Twitter">X</a>
+        <a href="#" class="social" title="YouTube" aria-label="YouTube">YT</a>
+        <a href="#" class="social" title="LinkedIn" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-brand">☕ Café Digital Nusantara</div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+        <a href="reservation.html">Reservation</a>
+      </div>
+      <div class="muted small">© 2026 Café Digital Nusantara. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

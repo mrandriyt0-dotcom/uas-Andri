@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservation | Café Digital Nusantara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html#home">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Café Digital Nusantara</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#menu">Menu</a>
+        <a href="index.html#contact">Contact</a>
+        <a class="btn btn-ghost" href="index.html">Kembali</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Halaman Reservasi</h2>
+        <p>Halaman khusus untuk pemesanan (page terpisah dari index).</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Reservation Form -->
+        <form class="card form" action="#" method="post">
+          <h3>Reservation Form</h3>
+
+          <label>Nama Lengkap <span class="req">*</span>
+            <input type="text" name="nama" placeholder="Contoh: Andri Pratama" required />
+          </label>
+
+          <label>Email <span class="req">*</span>
+            <input type="email" name="email" placeholder="nama@email.com" required />
+          </label>
+
+          <label>Nomor HP <span class="req">*</span>
+            <input type="tel" name="hp" placeholder="08xxxxxxxxxx" required />
+          </label>
+
+          <div class="form-row">
+            <label>Tanggal Reservasi
+              <input type="date" name="tanggal" />
+            </label>
+
+            <label>Jam (time/select)
+              <input type="time" name="jam" />
+            </label>
+          </div>
+
+          <label>Jumlah Orang (1–10)
+            <input type="number" name="jumlah" min="1" max="10" value="1" />
+          </label>
+
+          <label>Pilih Cabang
+            <select name="cabang">
+              <option value="">-- Pilih Cabang --</option>
+              <option value="Jakarta">Jakarta</option>
+              <option value="Bandung">Bandung</option>
+            </select>
+          </label>
+
+          <label>Permintaan Khusus
+            <textarea name="permintaan" rows="4" placeholder="Contoh: dekat colokan, non-smoking, dll"></textarea>
+          </label>
+
+          <label class="check">
+            <input type="checkbox" name="konfirmasi" required />
+            Saya setuju dengan kebijakan reservasi <span class="req">*</span>
+          </label>
+
+          <button class="btn btn-primary" type="submit">Submit Reservasi</button>
+          <p class="muted small">*Form demo (tanpa backend). Output tidak dikirim ke server.</p>
+        </form>
+
+        <!-- Support + FAQ -->
+        <aside class="stack">
+          <div class="card">
+            <h3>Contact Support Info</h3>
+            <p class="contact-line"><span class="ico">✉️</span> support@cafedigital.com</p>
+            <p class="contact-line"><span class="ico">📞</span> 021-1122-3344</p>
+            <p class="contact-line"><span class="ico">🕒</span> Support: 09.00 – 21.00</p>
+          </div>
+
+          <div class="card">
+            <h3>FAQ (Sederhana)</h3>
+
+            <details class="faq" open>
+              <summary>1) Apakah reservasi wajib?</summary>
+              <p class="muted">
+                Tidak wajib, tapi disarankan saat jam ramai agar kebagian meja.
+              </p>
+            </details>
+
+            <details class="faq">
+              <summary>2) Apakah bisa reschedule?</summary>
+              <p class="muted">
+                Bisa. Hubungi support minimal 2 jam sebelum jadwal reservasi.
+              </p>
+            </details>
+
+            <details class="faq">
+              <summary>3) Apakah tersedia meeting room?</summary>
+              <p class="muted">
+                Ada. Untuk meeting room, tulis permintaan khusus atau hubungi support.
+              </p>
+            </details>
+
+            <div class="mt">
+              <a class="btn btn-ghost" href="index.html#contact">Lihat Lokasi</a>
+              <a class="btn btn-primary" href="index.html#home">Ke Home</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <div class="footer-brand">☕ Café Digital Nusantara</div>
+      <div class="footer-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#menu">Menu</a>
+        <a href="index.html#facilities">Facilities</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="reservation.html">Reservation</a>
+      </div>
+      <div class="muted small">© 2026 Café Digital Nusantara.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
